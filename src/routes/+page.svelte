@@ -23,11 +23,11 @@
   <h1 class="text-center text-6xl md:text-8xl font-extrabold leading-tight">
 
     <!-- "Game Portal" in white -->
-    <span class="text-white font-yellowtail">Game Portal</span>
+    <span class="text-white font-yellowtail">The Game Portal</span>
     <br>
 
     <!-- "Legacy" in Yellowtail with metallic shimmer -->
-    <span class="font-yellowtail shimmer">Legacy</span>
+    <span class="font-orbitron shimmer">Legacy</span>
 
   </h1>
 </div>
