@@ -1,6 +1,6 @@
 <script>
   import { page } from '$app/stores';
-  import { games } from '$lib/assets/games';
+  import {games} from "$lib/assets/games"
   import { onMount } from 'svelte';
 
   let game;

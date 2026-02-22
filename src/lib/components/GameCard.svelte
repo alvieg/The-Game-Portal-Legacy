@@ -4,7 +4,7 @@
 
 	export let game;
 	export let isFavorite = false;
-	const cover = game.cover?.replace('{COVER_URL}', '/images/');
+	const cover = game.cover?.replace('{COVER_URL}', '/images');
 
 	const dispatch = createEventDispatcher();
 
@@ -19,7 +19,7 @@
 	class="relative bg-white/5 hover:bg-white/10 transition rounded-2xl p-4 flex flex-col gap-3 border border-white/10"
 >
 	<div class="w-full aspect-square overflow-hidden rounded-xl">
-		<img src={cover} alt={game.name} class="w-full h-full object-cover" />
+		<img src={cover} alt={game.name} class="w-full h-full object-cover" loading="lazy" />
 	</div>
 
 	<div class="flex justify-between items-start">
